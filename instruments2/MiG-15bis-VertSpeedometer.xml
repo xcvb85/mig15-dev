@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-
 <PropertyList>
-
   <path>MiG-15bis-VertSpeedometer.ac</path> 
 
   <effect>
@@ -9,23 +7,11 @@
     <object-name>VSI_Glass</object-name>
   </effect>
 
-  <animation>
-    <type>range</type>
-    <min-m>0</min-m>
-    <max-m>30</max-m>
-  </animation>
-
-  <animation>
-    <type>material</type>
+  <effect>
+    <inherits-from>Aircraft/MiG-15/Models/Effects/instruments2</inherits-from>
     <object-name>VSI_Needle</object-name>
     <object-name>VSI_Backplate</object-name>
-    <emission>
-      <factor-prop>systems/electrical-real/volts-norm</factor-prop>
-      <red>0.222</red>
-      <green>0.212</green>
-      <blue>0.212</blue>
-    </emission>
-  </animation>
+  </effect>
 
   <!--
 

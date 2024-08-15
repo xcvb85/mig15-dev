@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-
 <PropertyList>
-
   <path>MiG-15bis-Voltampermeter.ac</path> 
 
   <effect>
@@ -9,55 +7,15 @@
     <object-name>VA_Glass</object-name>
   </effect>
 
-  <animation>
-    <type>range</type>
-    <min-m>0</min-m>
-    <max-m>30</max-m>
-  </animation>
-
-  <animation>
-    <type>material</type>
-    <object-name>VA_Needle_0</object-name>
-    <object-name>VA_Needle_1</object-name>
+  <effect>
+    <inherits-from>Aircraft/MiG-15/Models/Effects/instruments2</inherits-from>
+    <object-name>VA_Needle</object-name>
     <object-name>VA_Backplate</object-name>
-    <emission>
-      <factor-prop>systems/electrical-real/volts-norm</factor-prop>
-      <red>0.222</red>
-      <green>0.212</green>
-      <blue>0.212</blue>
-    </emission>
-  </animation>
-
-  <!--
-
-<animation>
-<type>material</type>
-<object-name>VA_Needle_0</object-name>
-<object-name>VA_Needle_1</object-name>
-<object-name>VA_Backplate</object-name>
-<object-name>VA_Forepalte</object-name>
-<object-name>VA_Bezel</object-name>
-<emission>
-<factor-prop>systems/light/canopy-lamps-norm</factor-prop>
-<red>0.777</red>
-<green>0.700</green>
-<blue>0.700</blue>
-</emission>
-<condition>
-<equals>
-<property>systems/light/use-canopy-lamps</property>
-<value>1</value>
-</equals>
-</condition>
-</animation>
-
-  -->
-
+  </effect>
 
   <animation>
     <type>rotate</type>
-    <object-name>VA_Needle_0</object-name>
-    <object-name>VA_Needle_1</object-name>
+    <object-name>VA_Needle</object-name>
     <property>systems/electrical-real/amper-norm</property>
     <interpolation>
       <entry><ind>0.0</ind><dep>0</dep></entry>

@@ -1,24 +1,5 @@
 <?xml version="1.0"?>
-
 <PropertyList>
-
-  <!--
-
-That code gotta be puttet somethere in craft model file or file of panel of it.
-Change path and set offset as needed.
-
-<model>
-<path>Aircraft/MiG-15/Models/Instruments/Radiocompass/MiG-15bis-Radiocompass.xml</path>
-<offsets>
-<x-m>0.0</x-m>
-<y-m>0.0</y-m>
-<z-m>0.0</z-m>
-<pitch-deg>0.0</pitch-deg>
-</offsets>
-</model>
-
-  -->
-
   <path>MiG-15bis-Radiocompass.ac</path> 
 
   <effect>
@@ -26,18 +7,12 @@ Change path and set offset as needed.
     <object-name>RC_Glass</object-name>
   </effect>
 
-  <animation>
-    <type>material</type>
+  <effect>
+    <inherits-from>Aircraft/MiG-15/Models/Effects/instruments2</inherits-from>
     <object-name>RC_Needle</object-name>
     <object-name>RC_Backplate</object-name>
     <object-name>RC_Foreplate</object-name>
-    <emission>
-      <factor-prop>systems/electrical-real/volts-norm</factor-prop>
-      <red>0.222</red>
-      <green>0.212</green>
-      <blue>0.212</blue>
-    </emission>
-  </animation>
+  </effect>
 
   <!--
 
