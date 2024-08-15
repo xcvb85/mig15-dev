@@ -1,14 +1,14 @@
 AC3Db
 MATERIAL "BlackMetal" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.502 0.502 0.502  shi 64 trans 0.000
 OBJECT world
-name "Blender_exporter_v4.1__Cockpit.ac"
+name "Blender_exporter_v4.1__MiG-15bis-Cockpit.ac"
 kids 6
 OBJECT poly
 name "CP_CockpitWell"
 data 19
 CP_CockpitWell.mesh
 crease 40.0
-texture "cockpit_base.png"
+texture "MiG-15bis-Cockpit.png"
 numvert 130
 1.54628 0.58968 -0.31549
 1.54628 0.238 -0.46914
@@ -1133,7 +1133,7 @@ name "CP_LBox"
 data 12
 Cylinder.003
 crease 30.0
-texture "cockpit_base.png"
+texture "MiG-15bis-Cockpit.png"
 numvert 673
 1.59971 0.2966 0.31768
 1.5909 0.2966 0.4256
@@ -6926,7 +6926,7 @@ name "CP_LPFar"
 data 10
 Circle.003
 crease 30.0
-texture "cockpit_base.png"
+texture "MiG-15bis-Cockpit.png"
 numvert 28
 1.94952 0.29723 0.42622
 1.94952 0.33 0.42622
@@ -7089,7 +7089,7 @@ name "CP_LPNear"
 data 10
 Circle.004
 crease 30.0
-texture "cockpit_base.png"
+texture "MiG-15bis-Cockpit.png"
 numvert 52
 2.19182 0.33023 0.42622
 2.19145 0.3251 0.42622
@@ -7441,7 +7441,7 @@ name "CP_RBox"
 data 12
 Cylinder.004
 crease 30.0
-texture "cockpit_base.png"
+texture "MiG-15bis-Cockpit.png"
 numvert 1690
 1.57191 0.2966 -0.3185
 1.59971 0.2966 -0.32623
@@ -23068,7 +23068,7 @@ name "CP_RPan"
 data 8
 Cube.001
 crease 30.0
-texture "cockpit_base.png"
+texture "MiG-15bis-Cockpit.png"
 numvert 47
 1.98225 0.29457 -0.42516
 1.98225 0.29457 -0.42016
