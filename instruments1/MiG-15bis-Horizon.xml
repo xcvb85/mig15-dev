@@ -7,34 +7,18 @@
   <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>HO_Glass</object-name>
-  </effect>
-
-  <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>HO_Tube</object-name>
   </effect>
 
-  <animation>
-    <type>range</type>
-    <min-m>0</min-m>
-    <max-m>30</max-m>
-  </animation>
-
-  <animation>
-    <type>material</type>
+    <effect>
+      <inherits-from>Aircraft/MiG-15/Models/Effects/instruments1</inherits-from>
     <object-name>HO_Sphere</object-name>
     <object-name>HO_Backpanel</object-name>
     <object-name>HO_Backplate</object-name>
     <object-name>HO_Ball</object-name>
     <object-name>HO_Tube</object-name>
     <object-name>HO_Ring</object-name>
-    <emission>
-      <factor-prop>systems/electrical-real/volts-norm</factor-prop>
-      <red>0.222</red>
-      <green>0.212</green>
-      <blue>0.212</blue>
-    </emission>
-  </animation>
+	</effect>
 
   <!--
 

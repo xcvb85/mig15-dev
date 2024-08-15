@@ -9,14 +9,8 @@
     <object-name>GT_Glass</object-name>
   </effect>
 
-  <animation>
-    <type>range</type>
-    <min-m>0</min-m>
-    <max-m>30</max-m>
-  </animation>
-
-  <animation>
-    <type>material</type>
+  <effect>
+    <inherits-from>Aircraft/MiG-15/Models/Effects/instruments1</inherits-from>
     <object-name>GT_Needle</object-name>
     <object-name>GT_Backplate</object-name>
     <object-name>GT_Foreplate</object-name>
@@ -26,13 +20,7 @@
     <object-name>GT_RBlocker</object-name>
     <object-name>GT_RBCord</object-name>
     <object-name>GT_RGayka</object-name>
-    <emission>
-      <factor-prop>systems/electrical-real/volts-norm</factor-prop>
-      <red>0.222</red>
-      <green>0.212</green>
-      <blue>0.212</blue>
-    </emission>
-  </animation>
+  </effect>
 
   <!--
 
