@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <path>MiG-15bis-Machometer.ac</path> 
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>Mach_Glass</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Aircraft/MiG-15/Models/Effects/instruments2</inherits-from>
+    <object-name>Mach_Needle</object-name>
+    <object-name>Mach_Backplate</object-name>
+  </effect>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Mach_Needle</object-name>
+    <property>velocities/mach</property>
+    <interpolation>
+      <entry><ind>0.0</ind><dep>60.0</dep></entry>
+      <entry><ind>0.3</ind><dep>90.0</dep></entry>
+      <entry><ind>0.55</ind><dep>180.0</dep></entry>
+      <entry><ind>0.8</ind><dep>270.0</dep></entry>
+      <entry><ind>0.95</ind><dep>324.0</dep></entry>
+    </interpolation>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+</PropertyList> 
